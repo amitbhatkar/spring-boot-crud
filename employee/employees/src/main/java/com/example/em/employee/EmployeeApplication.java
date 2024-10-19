@@ -7,11 +7,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EmployeeApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Starting Successful");
+		System.out.println("-------Starting Successful-------");
 
 		SpringApplication.run(EmployeeApplication.class, args);
 
-		System.out.println("\n Finished Successful");
+		System.out.println("\n --------Finished Successful--------");
  	}
 
 }
